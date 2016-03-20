@@ -61,8 +61,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/libra/proprietary/lib64/hw/sensors.lsm6db0.so:system/lib64/hw/sensors.lsm6db0.so \
     vendor/xiaomi/libra/proprietary/lib/hw/activity_recognition.msm8994.so:system/lib/hw/activity_recognition.msm8994.so \
     vendor/xiaomi/libra/proprietary/lib64/hw/activity_recognition.msm8994.so:system/lib64/hw/activity_recognition.msm8994.so \
-    vendor/xiaomi/libra/proprietary/lib/hw/lights.msm8992.so:system/lib/hw/lights.msm8992.so \
-    vendor/xiaomi/libra/proprietary/lib64/hw/lights.msm8992.so:system/lib64/hw/lights.msm8992.so \
     vendor/xiaomi/libra/proprietary/lib/libgps.utils.so:system/lib/libgps.utils.so \
     vendor/xiaomi/libra/proprietary/lib/libloc_api_v02.so:system/lib/libloc_api_v02.so \
     vendor/xiaomi/libra/proprietary/lib/libloc_core.so:system/lib/libloc_core.so \
