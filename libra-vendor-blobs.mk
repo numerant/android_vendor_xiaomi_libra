@@ -46,7 +46,7 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/libra/proprietary/bin/sensor_select.sh:system/bin/sensor_select.sh \
     vendor/xiaomi/libra/proprietary/bin/qseecomd:system/bin/qseecomd \
     vendor/xiaomi/libra/proprietary/bin/mm-pp-daemon:system/bin/mm-pp-daemon \
-    vendor/xiaomi/libra/proprietary/lib/hw/camera.msm8992.so:system/lib/hw/camera.msm8992.so \
+    vendor/xiaomi/libra/proprietary/lib/hw/camera.msm8992.so:system/lib/hw/camera.vendor.msm8992.so \
     vendor/xiaomi/libra/proprietary/lib/libmmcamera_interface.so:system/lib/libmmcamera_interface.so \
     vendor/xiaomi/libra/proprietary/lib/libmmjpeg_interface.so:system/lib/libmmjpeg_interface.so \
     vendor/xiaomi/libra/proprietary/lib/libmm-qcamera.so:system/lib/libmm-qcamera.so \
