@@ -55,8 +55,7 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/libra/proprietary/vendor/bin/perfd:system/vendor/bin/perfd \
     vendor/xiaomi/libra/proprietary/bin/time_daemon:system/bin/time_daemon \
     vendor/xiaomi/libra/proprietary/bin/adsprpcd:system/bin/adsprpcd \
-    vendor/xiaomi/libra/proprietary/bin/mm-qcamera-app:system/bin/mm-qcamera-app \
-    vendor/xiaomi/libra/proprietary/bin/mm-qcamera-daemon:system/bin/mm-qcamera-daemon \
+    vendor/xiaomi/libra/proprietary/vendor/bin/mm-qcamera-daemon:system/vendor/bin/mm-qcamera-daemon \
     vendor/xiaomi/libra/proprietary/bin/sensors.qcom:system/bin/sensors.qcom \
     vendor/xiaomi/libra/proprietary/bin/sensor_select.sh:system/bin/sensor_select.sh \
     vendor/xiaomi/libra/proprietary/bin/qseecomd:system/bin/qseecomd \
@@ -534,7 +533,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/libra/proprietary/vendor/lib/libmmipstreamutils.so:system/vendor/lib/libmmipstreamutils.so \
     vendor/xiaomi/libra/proprietary/vendor/lib/libmmjpeg.so:system/vendor/lib/libmmjpeg.so \
     vendor/xiaomi/libra/proprietary/vendor/lib/libmmosal.so:system/vendor/lib/libmmosal.so \
-    vendor/xiaomi/libra/proprietary/vendor/lib/libmmparser.so:system/vendor/lib/libmmparser.so \
     vendor/xiaomi/libra/proprietary/vendor/lib/libmm-qdcm.so:system/vendor/lib/libmm-qdcm.so \
     vendor/xiaomi/libra/proprietary/vendor/lib/libmmqjpeg_codec.so:system/vendor/lib/libmmqjpeg_codec.so \
     vendor/xiaomi/libra/proprietary/vendor/lib/libmmqjpegdma.so:system/vendor/lib/libmmqjpegdma.so \
@@ -553,12 +551,8 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/libra/proprietary/vendor/lib/libois_lc898122.so:system/vendor/lib/libois_lc898122.so \
     vendor/xiaomi/libra/proprietary/vendor/lib/libois_lc898123.so:system/vendor/lib/libois_lc898123.so \
     vendor/xiaomi/libra/proprietary/vendor/lib/libOmxAacDec.so:system/vendor/lib/libOmxAacDec.so \
-    vendor/xiaomi/libra/proprietary/vendor/lib/libOmxAmrwbplusDec.so:system/vendor/lib/libOmxAmrwbplusDec.so \
-    vendor/xiaomi/libra/proprietary/vendor/lib/libomx-dts.so:system/vendor/lib/libomx-dts.so \
     vendor/xiaomi/libra/proprietary/vendor/lib/libOmxEvrcDec.so:system/vendor/lib/libOmxEvrcDec.so \
-    vendor/xiaomi/libra/proprietary/vendor/lib/libOmxMux.so:system/vendor/lib/libOmxMux.so \
     vendor/xiaomi/libra/proprietary/vendor/lib/libOmxQcelp13Dec.so:system/vendor/lib/libOmxQcelp13Dec.so \
-    vendor/xiaomi/libra/proprietary/vendor/lib/libOmxWmaDec.so:system/vendor/lib/libOmxWmaDec.so \
     vendor/xiaomi/libra/proprietary/vendor/lib/libOpenCL.so:system/vendor/lib/libOpenCL.so \
     vendor/xiaomi/libra/proprietary/vendor/lib/libP11EncryptorDecryptor.so:system/vendor/lib/libP11EncryptorDecryptor.so \
     vendor/xiaomi/libra/proprietary/vendor/lib/libperipheral_client.so:system/vendor/lib/libperipheral_client.so \
@@ -637,20 +631,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/libra/proprietary/vendor/lib/libvcel.so:system/vendor/lib/libvcel.so \
     vendor/xiaomi/libra/proprietary/vendor/lib/libvendorconn.so:system/vendor/lib/libvendorconn.so \
     vendor/xiaomi/libra/proprietary/vendor/lib/libvoice-svc.so:system/vendor/lib/libvoice-svc.so \
-    vendor/xiaomi/libra/proprietary/vendor/lib/libwfdcommonutils.so:system/vendor/lib/libwfdcommonutils.so \
-    vendor/xiaomi/libra/proprietary/vendor/lib/libwfdhdcpcp.so:system/vendor/lib/libwfdhdcpcp.so \
-    vendor/xiaomi/libra/proprietary/vendor/lib/libwfdmmsink.so:system/vendor/lib/libwfdmmsink.so \
-    vendor/xiaomi/libra/proprietary/vendor/lib/libwfdmmsrc.so:system/vendor/lib/libwfdmmsrc.so \
-    vendor/xiaomi/libra/proprietary/vendor/lib/libwfdmmutils.so:system/vendor/lib/libwfdmmutils.so \
-    vendor/xiaomi/libra/proprietary/vendor/lib/libwfdnative.so:system/vendor/lib/libwfdnative.so \
-    vendor/xiaomi/libra/proprietary/vendor/lib/libwfdrtsp.so:system/vendor/lib/libwfdrtsp.so \
-    vendor/xiaomi/libra/proprietary/vendor/lib/libwfdservice.so:system/vendor/lib/libwfdservice.so \
-    vendor/xiaomi/libra/proprietary/vendor/lib/libwfdsm.so:system/vendor/lib/libwfdsm.so \
-    vendor/xiaomi/libra/proprietary/vendor/lib/libwfduibcinterface.so:system/vendor/lib/libwfduibcinterface.so \
-    vendor/xiaomi/libra/proprietary/vendor/lib/libwfduibcsinkinterface.so:system/vendor/lib/libwfduibcsinkinterface.so \
-    vendor/xiaomi/libra/proprietary/vendor/lib/libwfduibcsink.so:system/vendor/lib/libwfduibcsink.so \
-    vendor/xiaomi/libra/proprietary/vendor/lib/libwfduibcsrcinterface.so:system/vendor/lib/libwfduibcsrcinterface.so \
-    vendor/xiaomi/libra/proprietary/vendor/lib/libwfduibcsrc.so:system/vendor/lib/libwfduibcsrc.so \
     vendor/xiaomi/libra/proprietary/vendor/lib/libwifiscanner.so:system/vendor/lib/libwifiscanner.so \
     vendor/xiaomi/libra/proprietary/vendor/lib/libwqe.so:system/vendor/lib/libwqe.so \
     vendor/xiaomi/libra/proprietary/vendor/lib/libxml.so:system/vendor/lib/libxml.so \
@@ -780,7 +760,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/libra/proprietary/vendor/lib64/libmmipstreamsourcehttp.so:system/vendor/lib64/libmmipstreamsourcehttp.so \
     vendor/xiaomi/libra/proprietary/vendor/lib64/libmmipstreamutils.so:system/vendor/lib64/libmmipstreamutils.so \
     vendor/xiaomi/libra/proprietary/vendor/lib64/libmmosal.so:system/vendor/lib64/libmmosal.so \
-    vendor/xiaomi/libra/proprietary/vendor/lib64/libmmparser.so:system/vendor/lib64/libmmparser.so \
     vendor/xiaomi/libra/proprietary/vendor/lib64/libmm-qdcm.so:system/vendor/lib64/libmm-qdcm.so \
     vendor/xiaomi/libra/proprietary/vendor/lib64/libmmrtpdecoder.so:system/vendor/lib64/libmmrtpdecoder.so \
     vendor/xiaomi/libra/proprietary/vendor/lib64/libmmrtpencoder.so:system/vendor/lib64/libmmrtpencoder.so \
@@ -791,9 +770,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/libra/proprietary/vendor/lib64/libnetmgr.so:system/vendor/lib64/libnetmgr.so \
     vendor/xiaomi/libra/proprietary/vendor/lib64/libNimsWrap.so:system/vendor/lib64/libNimsWrap.so \
     vendor/xiaomi/libra/proprietary/vendor/lib64/libOmxAacDec.so:system/vendor/lib64/libOmxAacDec.so \
-    vendor/xiaomi/libra/proprietary/vendor/lib64/libOmxAmrwbplusDec.so:system/vendor/lib64/libOmxAmrwbplusDec.so \
-    vendor/xiaomi/libra/proprietary/vendor/lib64/libOmxMux.so:system/vendor/lib64/libOmxMux.so \
-    vendor/xiaomi/libra/proprietary/vendor/lib64/libOmxWmaDec.so:system/vendor/lib64/libOmxWmaDec.so \
     vendor/xiaomi/libra/proprietary/vendor/lib64/libOpenCL.so:system/vendor/lib64/libOpenCL.so \
     vendor/xiaomi/libra/proprietary/vendor/lib64/libP11EncryptorDecryptor.so:system/vendor/lib64/libP11EncryptorDecryptor.so \
     vendor/xiaomi/libra/proprietary/vendor/lib64/libperipheral_client.so:system/vendor/lib64/libperipheral_client.so \
@@ -859,20 +835,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/libra/proprietary/vendor/lib64/libvcel.so:system/vendor/lib64/libvcel.so \
     vendor/xiaomi/libra/proprietary/vendor/lib64/libvendorconn.so:system/vendor/lib64/libvendorconn.so \
     vendor/xiaomi/libra/proprietary/vendor/lib64/libvoice-svc.so:system/vendor/lib64/libvoice-svc.so \
-    vendor/xiaomi/libra/proprietary/vendor/lib64/libwfdcommonutils.so:system/vendor/lib64/libwfdcommonutils.so \
-    vendor/xiaomi/libra/proprietary/vendor/lib64/libwfdhdcpcp.so:system/vendor/lib64/libwfdhdcpcp.so \
-    vendor/xiaomi/libra/proprietary/vendor/lib64/libwfdmmsink.so:system/vendor/lib64/libwfdmmsink.so \
-    vendor/xiaomi/libra/proprietary/vendor/lib64/libwfdmmsrc.so:system/vendor/lib64/libwfdmmsrc.so \
-    vendor/xiaomi/libra/proprietary/vendor/lib64/libwfdmmutils.so:system/vendor/lib64/libwfdmmutils.so \
-    vendor/xiaomi/libra/proprietary/vendor/lib64/libwfdnative.so:system/vendor/lib64/libwfdnative.so \
-    vendor/xiaomi/libra/proprietary/vendor/lib64/libwfdrtsp.so:system/vendor/lib64/libwfdrtsp.so \
-    vendor/xiaomi/libra/proprietary/vendor/lib64/libwfdservice.so:system/vendor/lib64/libwfdservice.so \
-    vendor/xiaomi/libra/proprietary/vendor/lib64/libwfdsm.so:system/vendor/lib64/libwfdsm.so \
-    vendor/xiaomi/libra/proprietary/vendor/lib64/libwfduibcinterface.so:system/vendor/lib64/libwfduibcinterface.so \
-    vendor/xiaomi/libra/proprietary/vendor/lib64/libwfduibcsinkinterface.so:system/vendor/lib64/libwfduibcsinkinterface.so \
-    vendor/xiaomi/libra/proprietary/vendor/lib64/libwfduibcsink.so:system/vendor/lib64/libwfduibcsink.so \
-    vendor/xiaomi/libra/proprietary/vendor/lib64/libwfduibcsrcinterface.so:system/vendor/lib64/libwfduibcsrcinterface.so \
-    vendor/xiaomi/libra/proprietary/vendor/lib64/libwfduibcsrc.so:system/vendor/lib64/libwfduibcsrc.so \
     vendor/xiaomi/libra/proprietary/vendor/lib64/libwifiscanner.so:system/vendor/lib64/libwifiscanner.so \
     vendor/xiaomi/libra/proprietary/vendor/lib64/libwqe.so:system/vendor/lib64/libwqe.so \
     vendor/xiaomi/libra/proprietary/vendor/lib64/libxml.so:system/vendor/lib64/libxml.so \
