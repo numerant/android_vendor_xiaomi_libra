@@ -335,7 +335,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/libra/proprietary/vendor/lib/drm/libdrmwvmplugin.so:system/vendor/lib/drm/libdrmwvmplugin.so \
     vendor/xiaomi/libra/proprietary/vendor/lib/egl/libq3dtools_esx.so:system/vendor/lib/egl/libq3dtools_esx.so \
     vendor/xiaomi/libra/proprietary/vendor/lib/egl/libQTapGLES.so:system/vendor/lib/egl/libQTapGLES.so \
-    vendor/xiaomi/libra/proprietary/vendor/lib/hw/flp.default.so:system/vendor/lib/hw/flp.default.so \
     vendor/xiaomi/libra/proprietary/vendor/lib/hw/gatekeeper.msm8992.so:system/vendor/lib/hw/gatekeeper.msm8992.so \
     vendor/xiaomi/libra/proprietary/vendor/lib/hw/keystore.msm8992.so:system/vendor/lib/hw/keystore.msm8992.so \
     vendor/xiaomi/libra/proprietary/vendor/lib/hw/sound_trigger.primary.msm8992.so:system/vendor/lib/hw/sound_trigger.primary.msm8992.so \
