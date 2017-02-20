@@ -414,6 +414,9 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/libra/proprietary/vendor/lib/libadiertac.so:system/vendor/lib/libadiertac.so \
     vendor/xiaomi/libra/proprietary/vendor/lib/libadsprpc.so:system/vendor/lib/libadsprpc.so \
     vendor/xiaomi/libra/proprietary/vendor/lib/libalarmservice_jni.so:system/vendor/lib/libalarmservice_jni.so \
+    vendor/xiaomi/libra/proprietary/vendor/lib/libaptX-1.0.0-rel-Android21-ARMv7A.so:system/vendor/lib/libaptX-1.0.0-rel-Android21-ARMv7A.so \
+    vendor/xiaomi/libra/proprietary/vendor/lib/libaptXHD-1.0.0-rel-Android21-ARMv7A.so:system/vendor/lib/libaptXHD-1.0.0-rel-Android21-ARMv7A.so \
+    vendor/xiaomi/libra/proprietary/vendor/lib/libaptXScheduler.so:system/vendor/lib/libaptXScheduler.so \
     vendor/xiaomi/libra/proprietary/vendor/lib/libarcsoft_beauty_shot.so:system/vendor/lib/libarcsoft_beauty_shot.so \
     vendor/xiaomi/libra/proprietary/vendor/lib/libasn1cper.so:system/vendor/lib/libasn1cper.so \
     vendor/xiaomi/libra/proprietary/vendor/lib/libasn1crt.so:system/vendor/lib/libasn1crt.so \
