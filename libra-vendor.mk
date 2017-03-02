@@ -885,7 +885,7 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/libra/proprietary/vendor/lib/libRSDriver_adreno.so:system/vendor/lib/libRSDriver_adreno.so \
     vendor/xiaomi/libra/proprietary/vendor/lib/libSampleAuthJNI.so:system/vendor/lib/libSampleAuthJNI.so \
     vendor/xiaomi/libra/proprietary/vendor/lib/lib-sec-disp.so:system/vendor/lib/lib-sec-disp.so \
-    vendor/xiaomi/libra/proprietary/vendor/lib/libscale.so:system/vendor/lib/libscale.so
+    vendor/xiaomi/libra/proprietary/vendor/lib/libscale.so:system/vendor/lib/libscale.so \
     vendor/xiaomi/libra/proprietary/vendor/lib/libSecureSampleAuthClient.so:system/vendor/lib/libSecureSampleAuthClient.so \
     vendor/xiaomi/libra/proprietary/vendor/lib/libSecureSampleAuthJNI.so:system/vendor/lib/libSecureSampleAuthJNI.so \
     vendor/xiaomi/libra/proprietary/vendor/lib/libsecureui.so:system/vendor/lib/libsecureui.so \
