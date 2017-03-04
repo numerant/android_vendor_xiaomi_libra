@@ -23,7 +23,9 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/libra/proprietary/bin/cnss_diag:system/bin/cnss_diag \
     vendor/xiaomi/libra/proprietary/bin/displayfeature:system/bin/displayfeature \
     vendor/xiaomi/libra/proprietary/bin/dpmd:system/bin/dpmd \
+    vendor/xiaomi/libra/proprietary/bin/dun-server:system/bin/dun-server \
     vendor/xiaomi/libra/proprietary/bin/energy-awareness:system/bin/energy-awareness \
+    vendor/xiaomi/libra/proprietary/bin/ftmdaemon:system/bin/ftmdaemon \
     vendor/xiaomi/libra/proprietary/bin/garden_app:system/bin/garden_app \
     vendor/xiaomi/libra/proprietary/bin/gpsone_daemon:system/bin/gpsone_daemon \
     vendor/xiaomi/libra/proprietary/bin/hci_qcomm_init:system/bin/hci_qcomm_init \
@@ -42,6 +44,7 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/libra/proprietary/bin/netmgrd:system/bin/netmgrd \
     vendor/xiaomi/libra/proprietary/bin/pm-proxy:system/bin/pm-proxy \
     vendor/xiaomi/libra/proprietary/bin/pm-service:system/bin/pm-service \
+    vendor/xiaomi/libra/proprietary/bin/port-bridge:system/bin/port-bridge \
     vendor/xiaomi/libra/proprietary/bin/qmuxd:system/bin/qmuxd \
     vendor/xiaomi/libra/proprietary/bin/qseecomd:system/bin/qseecomd \
     vendor/xiaomi/libra/proprietary/bin/radish:system/bin/radish \
@@ -118,6 +121,7 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/libra/proprietary/etc/android_model_facea.dat:system/etc/android_model_facea.dat \
     vendor/xiaomi/libra/proprietary/etc/android_model_faceg.dat:system/etc/android_model_faceg.dat \
     vendor/xiaomi/libra/proprietary/etc/cacert_location.pem:system/etc/cacert_location.pem \
+    vendor/xiaomi/libra/proprietary/etc/ftm_test_config:system/etc/ftm_test_config \
     vendor/xiaomi/libra/proprietary/etc/gps_diag.cfg:system/etc/gps_diag.cfg \
     vendor/xiaomi/libra/proprietary/etc/people_gender.dat:system/etc/people_gender.dat \
     vendor/xiaomi/libra/proprietary/etc/thermal-engine-8992.conf:system/etc/thermal-engine-8992.conf \
