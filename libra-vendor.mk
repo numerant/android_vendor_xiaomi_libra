@@ -123,6 +123,7 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/libra/proprietary/etc/cacert_location.pem:system/etc/cacert_location.pem \
     vendor/xiaomi/libra/proprietary/etc/ftm_test_config:system/etc/ftm_test_config \
     vendor/xiaomi/libra/proprietary/etc/gps_diag.cfg:system/etc/gps_diag.cfg \
+    vendor/xiaomi/libra/proprietary/etc/mcd_default.conf:system/etc/mcd_default.conf \
     vendor/xiaomi/libra/proprietary/etc/people_gender.dat:system/etc/people_gender.dat \
     vendor/xiaomi/libra/proprietary/etc/thermal-engine-8992.conf:system/etc/thermal-engine-8992.conf \
     vendor/xiaomi/libra/proprietary/etc/watermark_font_2300_3199.dat:system/etc/watermark_font_2300_3199.dat \
