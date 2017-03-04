@@ -45,12 +45,15 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/libra/proprietary/bin/pm-proxy:system/bin/pm-proxy \
     vendor/xiaomi/libra/proprietary/bin/pm-service:system/bin/pm-service \
     vendor/xiaomi/libra/proprietary/bin/port-bridge:system/bin/port-bridge \
+    vendor/xiaomi/libra/proprietary/bin/qcom-system-daemon:system/bin/qcom-system-daemon \
     vendor/xiaomi/libra/proprietary/bin/qmuxd:system/bin/qmuxd \
     vendor/xiaomi/libra/proprietary/bin/qseecomd:system/bin/qseecomd \
     vendor/xiaomi/libra/proprietary/bin/radish:system/bin/radish \
     vendor/xiaomi/libra/proprietary/bin/rfs_access:system/bin/rfs_access \
     vendor/xiaomi/libra/proprietary/bin/rmt_storage:system/bin/rmt_storage \
     vendor/xiaomi/libra/proprietary/bin/sensors.qcom:system/bin/sensors.qcom \
+    vendor/xiaomi/libra/proprietary/bin/ssr_diag:system/bin/ssr_diag \
+    vendor/xiaomi/libra/proprietary/bin/ssr_setup:system/bin/ssr_setup \
     vendor/xiaomi/libra/proprietary/bin/subsystem_ramdump:system/bin/subsystem_ramdump \
     vendor/xiaomi/libra/proprietary/bin/tftp_server:system/bin/tftp_server \
     vendor/xiaomi/libra/proprietary/bin/time_daemon:system/bin/time_daemon \
