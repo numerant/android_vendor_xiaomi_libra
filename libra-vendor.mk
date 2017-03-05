@@ -169,6 +169,7 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/libra/proprietary/lib/libstagefright_soft_ffmpegadec.so:system/lib/libstagefright_soft_ffmpegadec.so \
     vendor/xiaomi/libra/proprietary/lib/libstagefright_soft_flacdec.so:system/lib/libstagefright_soft_flacdec.so \
     vendor/xiaomi/libra/proprietary/vendor/bin/audioflacapp:system/vendor/bin/audioflacapp \
+    vendor/xiaomi/libra/proprietary/vendor/bin/fidodaemon:system/vendor/bin/fidodaemon \
     vendor/xiaomi/libra/proprietary/vendor/bin/perfd:system/vendor/bin/perfd \
     vendor/xiaomi/libra/proprietary/vendor/bin/qti:system/vendor/bin/qti \
     vendor/xiaomi/libra/proprietary/vendor/bin/sampleauthdaemon:system/vendor/bin/sampleauthdaemon \
