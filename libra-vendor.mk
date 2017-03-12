@@ -906,7 +906,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/libra/proprietary/vendor/lib/libperipheral_client.so:system/vendor/lib/libperipheral_client.so \
     vendor/xiaomi/libra/proprietary/vendor/lib/libpvr.so:system/vendor/lib/libpvr.so \
     vendor/xiaomi/libra/proprietary/vendor/lib/libqcmaputils.so:system/vendor/lib/libqcmaputils.so \
-    vendor/xiaomi/libra/proprietary/vendor/lib/libqct_resampler.so:system/vendor/lib/libqct_resampler.so \
     vendor/xiaomi/libra/proprietary/vendor/lib/libqdi.so:system/vendor/lib/libqdi.so \
     vendor/xiaomi/libra/proprietary/vendor/lib/libqdp.so:system/vendor/lib/libqdp.so \
     vendor/xiaomi/libra/proprietary/vendor/lib/libqmi_client_helper.so:system/vendor/lib/libqmi_client_helper.so \
@@ -1028,6 +1027,8 @@ PRODUCT_PACKAGES += \
     libmdmdetect \
     libmm-abl \
     libqcci_legacy \
+    libqct_resampler \
+    libqct_resampler.qcom \
     libqmi_cci \
     libqmi_client_qmux \
     libqmiservices \
