@@ -1011,6 +1011,7 @@ PRODUCT_PACKAGES += \
     qcrilhook \
     rcsimssettings \
     rcsservice \
+    tcmiface \
     WfdCommon \
     libloc_api_v02 \
     libloc_ds_api \
